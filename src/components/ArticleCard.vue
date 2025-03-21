@@ -1,10 +1,16 @@
 <script setup>
+    import { defineProps, defineEmits } from 'vue';
     defineProps({
         title: String,
         content: String,
         author: String,
         articleDate: String
     })
+    const emit = defineEmits(['toggle-toast']);
+
+    const toggleToast = () => {
+        emit('toggle-toast'); // Emit the event when the button is clicked
+    };
 
 </script>
 <template>
@@ -25,7 +31,7 @@
                     </div>
                 </div>
                 
-                <button  class="rounded-full bg-[#ECF2F8] p-[.8em] flex justify-center items-center"><img src="../assets/icon-share.svg" alt=""></button>
+                <button @click="toggleToast"  class="rounded-full bg-[#ECF2F8] p-[.8em] flex justify-center items-center"><img src="../assets/icon-share.svg" alt=""></button>
             </div>
         </div>
     </div>
