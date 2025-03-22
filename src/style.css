@@ -102,3 +102,20 @@ body {
   border-right: 12px solid transparent;
   border-top: 10px solid #48556A; /* Same color as the toast */
 }
+
+@media (max-width: 500px) {
+  .article-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "article-container "
+      "article-content";
+  }
+
+  .share-icon-container {
+    position: initial;
+    right: -556px;
+    top: -150px;
+  }
+  
+}
