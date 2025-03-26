@@ -7,7 +7,7 @@
 
 </script>
 <template>
-    <div   :style="{ visibility: show ? 'visible' : 'hidden' }"  class="share-icon-container w-[15.5em] bg-[#48556A] text-white px-[1.125em] py-[1em] rounded-lg shadow-lg flex justify-between items-center">
+    <div   :style="{ visibility : show ? 'visible' : 'hidden'}"  class="hidden md:flex share-icon-container w-[15.5em] bg-[#48556A] text-white px-[1.125em] py-[1em] rounded-lg shadow-lg justify-between items-center">
         <h2 class="text-preset-3 grey-400">SHARE</h2>
         <img class="" src="../assets/icon-facebook.svg" alt="">
         <img class="" src="../assets/icon-pinterest.svg" alt="">
