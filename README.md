@@ -8,8 +8,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
 ![Design](article-preview-component-img.webp)
-Your users should be able to:
 
+Your users should be able to:
 See the social media share links when they click the share icon
 View the optimal layout for each page depending on their device's screen size
 See hover states for all interactive elements on the page
