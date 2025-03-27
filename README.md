@@ -13,7 +13,7 @@ See the social media share links when they click the share icon
 View the optimal layout for each page depending on their device's screen size
 See hover states for all interactive elements on the page
 
-![Design]()
+![Design](article-preview-component-img.webp)
 [live version]()
 
 
