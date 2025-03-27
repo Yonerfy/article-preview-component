@@ -1,5 +1,19 @@
 # Vue 3 + Vite
+## Article preview component
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Your challenge is to build out this article preview component and get it looking as close to the design as possible.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
+
+Your users should be able to:
+
+See the social media share links when they click the share icon
+View the optimal layout for each page depending on their device's screen size
+See hover states for all interactive elements on the page
+
+![Design]()
+[live version]()
+
+
